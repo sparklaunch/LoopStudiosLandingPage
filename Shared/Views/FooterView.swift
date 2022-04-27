@@ -11,13 +11,18 @@ struct FooterView: View {
     var body: some View {
         ZStack {
             Color("TitleColor")
-            VStack(spacing: 24) {
+            VStack(spacing: 36) {
                 Image("Logo")
                     .resizable()
                     .frame(width: 192, height: 32)
                 VStack(spacing: .zero) {
                     ForEach(FooterItems.items, id: \.text) { item in
                         FooterItemView(item: item)
+                    }
+                }
+                HStack(spacing: .zero) {
+                    ForEach(SocialMedia.allCases, id: \.rawValue) { socialMedia in
+                        FooterSocialMediaButtonView(socialMedia: socialMedia)
                     }
                 }
             }
