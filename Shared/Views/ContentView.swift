@@ -13,6 +13,7 @@ struct ContentView: View {
             VStack(spacing: .zero) {
                 HeaderView()
                 LeaderView()
+                CreationsView()
             }
         }
         .edgesIgnoringSafeArea(.all)
