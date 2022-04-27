@@ -14,6 +14,7 @@ struct ContentView: View {
                 HeaderView()
                 LeaderView()
                 CreationsView()
+                FooterView()
             }
         }
         .edgesIgnoringSafeArea(.all)
