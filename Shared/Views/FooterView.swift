@@ -25,6 +25,10 @@ struct FooterView: View {
                         FooterSocialMediaButtonView(socialMedia: socialMedia)
                     }
                 }
+                Text("© 2021 Loopstudios. All rights reserved.")
+                    .font(.body)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color("BodyColor"))
             }
             .padding(48)
         }
