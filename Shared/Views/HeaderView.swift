@@ -13,8 +13,10 @@ struct HeaderView: View {
             HeaderBackgroundView()
             VStack {
                 TopNavigationView()
+                    .padding(.top, 48)
                 Spacer()
             }
+            HeroView()
         }
         .fixedSize(horizontal: false, vertical: true)
     }

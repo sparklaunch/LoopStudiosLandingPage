@@ -14,6 +14,7 @@ struct ContentView: View {
                 HeaderView()
             }
         }
+        .edgesIgnoringSafeArea(.all)
         .onAppear {
             UIScrollView.appearance().bounces = false
         }

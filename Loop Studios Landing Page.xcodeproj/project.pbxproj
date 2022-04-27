@@ -16,6 +16,7 @@
 		90960F3F2818D9F800538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F3E2818D9F800538202 /* HeaderView.swift */; };
 		90960F412818DA3E00538202 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F402818DA3E00538202 /* HeaderBackgroundView.swift */; };
 		90960F432818DA6B00538202 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F422818DA6B00538202 /* TopNavigationView.swift */; };
+		90960F452818DB1B00538202 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F442818DB1B00538202 /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90960F3E2818D9F800538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90960F402818DA3E00538202 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
 		90960F422818DA6B00538202 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		90960F442818DB1B00538202 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				90960F3E2818D9F800538202 /* HeaderView.swift */,
 				90960F402818DA3E00538202 /* HeaderBackgroundView.swift */,
 				90960F422818DA6B00538202 /* TopNavigationView.swift */,
+				90960F442818DB1B00538202 /* HeroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				90960F2F2818D76F00538202 /* ContentView.swift in Sources */,
 				90960F432818DA6B00538202 /* TopNavigationView.swift in Sources */,
+				90960F452818DB1B00538202 /* HeroView.swift in Sources */,
 				90960F412818DA3E00538202 /* HeaderBackgroundView.swift in Sources */,
 				90960F3F2818D9F800538202 /* HeaderView.swift in Sources */,
 				90960F2D2818D76F00538202 /* LoopStudiosLandingPageApp.swift in Sources */,
