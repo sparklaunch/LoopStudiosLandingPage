@@ -34,7 +34,7 @@ struct LeaderView: View {
             }
         }
         .padding(24)
-        .padding(.vertical, 64)
+        .padding(.vertical, 48)
         .fixedSize(horizontal: false, vertical: true)
     }
 }

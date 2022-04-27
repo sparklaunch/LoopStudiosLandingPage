@@ -20,6 +20,7 @@
 		90960F472818DC6000538202 /* LeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F462818DC6000538202 /* LeaderView.swift */; };
 		90960F492818DE1E00538202 /* CreationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F482818DE1E00538202 /* CreationsView.swift */; };
 		90960F4B2818DE7900538202 /* Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F4A2818DE7900538202 /* Creation.swift */; };
+		90960F4D2818E03500538202 /* CreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F4C2818E03500538202 /* CreationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		90960F462818DC6000538202 /* LeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderView.swift; sourceTree = "<group>"; };
 		90960F482818DE1E00538202 /* CreationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationsView.swift; sourceTree = "<group>"; };
 		90960F4A2818DE7900538202 /* Creation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creation.swift; sourceTree = "<group>"; };
+		90960F4C2818E03500538202 /* CreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				90960F442818DB1B00538202 /* HeroView.swift */,
 				90960F462818DC6000538202 /* LeaderView.swift */,
 				90960F482818DE1E00538202 /* CreationsView.swift */,
+				90960F4C2818E03500538202 /* CreationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90960F4B2818DE7900538202 /* Creation.swift in Sources */,
+				90960F4D2818E03500538202 /* CreationView.swift in Sources */,
 				90960F2F2818D76F00538202 /* ContentView.swift in Sources */,
 				90960F492818DE1E00538202 /* CreationsView.swift in Sources */,
 				90960F432818DA6B00538202 /* TopNavigationView.swift in Sources */,

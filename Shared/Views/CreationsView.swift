@@ -17,8 +17,24 @@ struct CreationsView: View {
                     .kerning(1)
                     .fontWeight(.light)
                     .foregroundColor(Color("TitleColor"))
-                
+                VStack(spacing: .zero) {
+                    ForEach(Creations.items, id: \.title) { creation in
+                        CreationView(creation: creation)
+                    }
+                }
+                Button {
+                    // TODO: SEE ALL BUTTON.
+                } label: {
+                    Text("SEE ALL")
+                        .kerning(3)
+                        .font(.title3)
+                        .foregroundColor(Color("TitleColor"))
+                        .padding()
+                        .padding(.horizontal, 36)
+                        .border(Color("TitleColor"), width: 1)
+                }
             }
+            .padding(.vertical, 48)
         }
     }
 }
