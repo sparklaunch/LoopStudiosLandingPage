@@ -11,8 +11,12 @@ struct HeaderView: View {
     var body: some View {
         ZStack {
             HeaderBackgroundView()
-            TopNavigationView()
+            VStack {
+                TopNavigationView()
+                Spacer()
+            }
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 

@@ -9,13 +9,27 @@ import SwiftUI
 
 struct TopNavigationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image("Logo")
+                .resizable()
+                .frame(width: 192, height: 32)
+            Spacer()
+            Button {
+                // TODO: HAMBURGER MENU.
+            } label: {
+                Image("Hamburger")
+                    .resizable()
+                .frame(width: 24, height: 16)
+            }
+        }
+        .padding(24)
     }
 }
 
 struct TopNavigationView_Previews: PreviewProvider {
     static var previews: some View {
         TopNavigationView()
+            .background(.gray)
             .previewLayout(.sizeThatFits)
     }
 }
