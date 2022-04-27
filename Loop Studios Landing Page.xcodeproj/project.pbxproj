@@ -13,6 +13,9 @@
 		90960F302818D76F00538202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F1E2818D76E00538202 /* ContentView.swift */; };
 		90960F312818D76F00538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960F1F2818D76F00538202 /* Assets.xcassets */; };
 		90960F322818D76F00538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960F1F2818D76F00538202 /* Assets.xcassets */; };
+		90960F3F2818D9F800538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F3E2818D9F800538202 /* HeaderView.swift */; };
+		90960F412818DA3E00538202 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F402818DA3E00538202 /* HeaderBackgroundView.swift */; };
+		90960F432818DA6B00538202 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960F422818DA6B00538202 /* TopNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		90960F242818D76F00538202 /* Loop Studios Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Studios Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960F2A2818D76F00538202 /* Loop Studios Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Studios Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960F2C2818D76F00538202 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90960F3E2818D9F800538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90960F402818DA3E00538202 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
+		90960F422818DA6B00538202 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				90960F1E2818D76E00538202 /* ContentView.swift */,
+				90960F3E2818D9F800538202 /* HeaderView.swift */,
+				90960F402818DA3E00538202 /* HeaderBackgroundView.swift */,
+				90960F422818DA6B00538202 /* TopNavigationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90960F2F2818D76F00538202 /* ContentView.swift in Sources */,
+				90960F432818DA6B00538202 /* TopNavigationView.swift in Sources */,
+				90960F412818DA3E00538202 /* HeaderBackgroundView.swift in Sources */,
+				90960F3F2818D9F800538202 /* HeaderView.swift in Sources */,
 				90960F2D2818D76F00538202 /* LoopStudiosLandingPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
