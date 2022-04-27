@@ -10,8 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(spacing: .zero) {
                 HeaderView()
+                LeaderView()
             }
         }
         .edgesIgnoringSafeArea(.all)

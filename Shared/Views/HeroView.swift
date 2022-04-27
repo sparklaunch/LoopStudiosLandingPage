@@ -12,6 +12,7 @@ struct HeroView: View {
         Text("IMMERSIVE\nEXPERIENCES\nTHAT\nDELIVER")
             .kerning(3)
             .font(.largeTitle)
+            .fontWeight(.light)
             .foregroundColor(.white)
             .padding(36)
             .border(.white, width: 3)
