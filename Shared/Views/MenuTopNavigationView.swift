@@ -1,13 +1,13 @@
 //
-//  TopNavigationView.swift
+//  MenuTopNavigationView.swift
 //  Loop Studios Landing Page (iOS)
 //
-//  Created by Jinwook Kim on 2022/04/27.
+//  Created by Jinwook Kim on 2022/04/28.
 //
 
 import SwiftUI
 
-struct TopNavigationView: View {
+struct MenuTopNavigationView: View {
     @EnvironmentObject var globalState: GlobalState
     var body: some View {
         HStack {
@@ -17,22 +17,22 @@ struct TopNavigationView: View {
             Spacer()
             Button {
                 withAnimation(.default) {
-                    globalState.isMenuExpanded = true
+                    globalState.isMenuExpanded = false
                 }
             } label: {
-                Image("Hamburger")
+                Image("Close")
                     .resizable()
-                .frame(width: 24, height: 16)
+                .frame(width: 32, height: 32)
             }
         }
         .padding(24)
     }
 }
 
-struct TopNavigationView_Previews: PreviewProvider {
+struct MenuTopNavigationView_Previews: PreviewProvider {
     static var previews: some View {
-        TopNavigationView()
-            .background(.gray)
+        MenuTopNavigationView()
+            .background(Color("TitleColor"))
             .previewLayout(.sizeThatFits)
             .environmentObject(GlobalState())
     }

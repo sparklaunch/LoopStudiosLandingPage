@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var globalState = GlobalState()
     var body: some View {
-        ScrollView {
-            VStack(spacing: .zero) {
-                HeaderView()
-                LeaderView()
-                CreationsView()
-                FooterView()
+        ZStack {
+            ScrollView {
+                VStack(spacing: .zero) {
+                    HeaderView()
+                    LeaderView()
+                    CreationsView()
+                    FooterView()
+                }
             }
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
+            }
+            MenuView()
+                .opacity(globalState.isMenuExpanded ? 1 : .zero)
         }
-        .edgesIgnoringSafeArea(.all)
-        .onAppear {
-            UIScrollView.appearance().bounces = false
-        }
+        .environmentObject(globalState)
     }
 }
 

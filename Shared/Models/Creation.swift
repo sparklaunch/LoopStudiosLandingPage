@@ -9,7 +9,7 @@ struct Creation: Hashable {
     let title: String
     let image: String
     init(title: String = "DEEP EARTH", image: String = "DeepEarth") {
-        self.title = title
+        self.title = title.uppercased()
         self.image = image
     }
 }
