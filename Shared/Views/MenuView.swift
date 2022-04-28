@@ -9,13 +9,19 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .leading) {
             Color("TitleColor")
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 MenuTopNavigationView()
                 Spacer()
             }
+            VStack(alignment: .leading, spacing: .zero) {
+                ForEach(MenuItems.items, id: \.self) { item in
+                    MenuItemView(item: item)
+                }
+            }
+            .padding()
         }
     }
 }
